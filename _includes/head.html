@@ -1,0 +1,31 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="/assets/img/favicon.png">
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="/assets/css/ionicons.min.css" rel="stylesheet">
+    <link href="/assets/css/style.min.css" rel="stylesheet">
+
+	<title>{% if page.title != null %} {{ page.title }} - {{site.title}} {% else %}{{site.title}}{% endif %}</title>
+{% if page.description %}<meta name="description" content="{{page.description}}">
+{% else %} <meta name="description" content="Get information about {{page.title}}, {{page.location}} {{page.tags}}. Need directions? We've got them for you.  Finding a temple has never been this easy "> {% endif %}
+<meta content="{{ site.title }}" property="og:site_name">
+{% if page.title %}  <meta content="article" property="og:type">{% else %}  <meta content="website" property="og:type">{% endif %}
+{% if page.url %}  <meta content="{{site.url}}{{ page.url | remove: 'index.html'}}" property="og:url"> {% endif %}
+{% if page.image %}<meta property='og:image' content='{{page.thumb}}'/>{% else %}<meta property='og:image' content='{{site.url}}/assets/images/banner1.jpg'/>{% endif %}
+<meta property='og:title' content='{% if page.title != null %} {{ page.title }} | {{site.title}} {% else %}{{site.title}}{% endif %}'/>
+{% if page.description %}<meta name="og:description" content="{{page.description}}">
+{% else %} <meta name="og:description" content="Get information about {{page.title}}, {{page.location}} {{page.tags}}. Need directions? We've got them for you.  Finding a temple has never been this easy"> {% endif %}
+<meta name="google-site-verification" content="eVHD71Rev79M59Aq8n9bZEerySdOgl6kmVr1az3fgdI" />
+
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>

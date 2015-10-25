@@ -1,0 +1,10 @@
+# SITE CONFIGURATION
+
+url: "http://greylesshues.com" # the base hostname & protocol for your site
+title: "GreyLessHues"
+permalink: /:categories/:title/
+include: ['_pages']
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+markdown: kramdown
+
+
