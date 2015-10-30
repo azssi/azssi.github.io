@@ -1,29 +1,21 @@
 ---
-layout: default
----
+layout : default
+title: GreyLessHues
+---	
 
+<div class="row mtb">
 {% for post in site.posts %}
-		<!--Start Video Section-->
-        <div class="element  clearfix col1-3 home video portfolio all">
-          <div class="images"> <img src="/assets/img/{{post.image}}" alt="" />
-            <section class="hidden-infos"> 
-			<a href="{{post.video}}" class="video-popup" title="">
-			
-              <div class="overlay"></div>
-              <div class="icons video"></div>
-            </section>
-            <div class="title">
-              <div class="title-wrap">
-                <h3>{{post.title}}</h3>
-              </div>
-            </div>
-            <div class="subtitle">
-              <div class="subtitle-wrap">
-                <p>{{post.tags}}</p>
-              </div>
-            </div>
-          </div>
+    <div class="col-md-2 m10">
+        <div class="pdf-thumb-box">
+            <a href="{{post.video}}?iframe=true&width=100%&height=100%" rel="prettyPhoto" title="">
+                <div class="pdf-thumb-box-overlay">
+                    <span class="thumb">
+					<h4 class="mtb">{{post.title}}</h4>
+					<p>{{post.tags}}</p>
+					</span>
+                </div>
+                <img src="assets/img/{{post.image}}" class="img-responsive" /></a>
         </div>
-		<!--Ends Video Section-->
-		
-		{% endfor %}
+    </div>
+	{% endfor %}
+</div>

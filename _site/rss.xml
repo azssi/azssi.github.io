@@ -5,8 +5,8 @@
         <description>GreyLessHues - </description>
         <link></link>
         <link></link>
-        <lastBuildDate>2015-10-25T22:04:40+05:30</lastBuildDate>
-        <pubDate>2015-10-25T22:04:40+05:30</pubDate>
+        <lastBuildDate>2015-10-30T14:56:26+05:30</lastBuildDate>
+        <pubDate>2015-10-30T14:56:26+05:30</pubDate>
         <ttl>1800</ttl>
 
 
@@ -34,6 +34,15 @@
 </description>
                 <link>/smarthome/</link>
                 <guid>/smarthome</guid>
+                <pubDate>2015-10-25T00:00:00+05:30</pubDate>
+        </item>
+
+        <item>
+                <title>Singha Manutheworld</title>
+                <description>
+</description>
+                <link>/singha-manutheworld/</link>
+                <guid>/singha-manutheworld</guid>
                 <pubDate>2015-10-25T00:00:00+05:30</pubDate>
         </item>
 
@@ -151,15 +160,6 @@
 </description>
                 <link>/digi/</link>
                 <guid>/digi</guid>
-                <pubDate>2015-10-25T00:00:00+05:30</pubDate>
-        </item>
-
-        <item>
-                <title>COLOR GRADING REEL MONTAGE</title>
-                <description>
-</description>
-                <link>/color-grading-reel-montage/</link>
-                <guid>/color-grading-reel-montage</guid>
                 <pubDate>2015-10-25T00:00:00+05:30</pubDate>
         </item>
 
