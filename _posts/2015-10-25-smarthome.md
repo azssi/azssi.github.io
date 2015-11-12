@@ -1,7 +1,13 @@
 ---
 layout: post
 title: SmartHome
-tags : [ commercial ]
 image: smarthome.jpg
-video: https://drive.google.com/file/d/0B_NdsxRj1DjjbE5aNVNuT3VHVXc/preview
+tags : [ video ]
+director: Keir
+production: Sudest
+facility: Yggdrazil Group
+label : commercial
+style : 
+type : video
+link : http://player.vimeo.com/video/144175873
 ---

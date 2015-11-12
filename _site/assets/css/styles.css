@@ -71,7 +71,7 @@ h4 {font-size:13px; font-weight:600; letter-spacing:1px; text-transform:uppercas
 /* =Main Content
 --------------------------------------------------------------------------------------------------------*/
 #wrapper { margin-top:0px; width:940px; position:relative; z-index:29; margin:0 auto; margin-bottom:20px; padding-top:53px; border-bottom:1px solid #d3d3d3 }
-.container { padding:0px; width:100%; position:relative; margin:0 auto;}
+.container { padding:0px; width:960px; position:relative; margin:0 auto;}
 #container {margin-bottom:65px; }
 
 .col1-1 { width:940px; height:auto; margin:10px; float:left; }
@@ -131,9 +131,9 @@ h4 {font-size:13px; font-weight:600; letter-spacing:1px; text-transform:uppercas
 .email {background:url(../images/bg-email.png) center no-repeat; background-size:48px 48px; }
 
 .title, .subtitle { z-index:1001; position:absolute; top:35px; left:40px; width:auto; font-weight:600; cursor:pointer; pointer-events: none; }
-.subtitle { top: 56px; font-weight: 400; left:40px !important; }
+.subtitle { top:86px; font-weight: 400; left:40px !important; }
 .title-wrap, .subtitle-wrap { overflow: hidden; position: relative; }
-.title-wrap h3, .subtitle-wrap p { overflow: hidden; white-space: nowrap; color:#fff; padding:0px; font-weight:700; text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.3); }
+.title-wrap h3, .subtitle-wrap p {  white-space: nowrap; color:#fff; padding:0px; font-weight:700; text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.3); }
 .title-wrap h3 {font-size:14px; letter-spacing:1px; text-transform:uppercase; }
 .subtitle-wrap p {font-size:13px; font-weight:400; /*font-family:'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; font-style:normal*/}
 

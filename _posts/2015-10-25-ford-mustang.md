@@ -1,7 +1,12 @@
 ---
 layout: post
 title: Ford Mustang
-tags : [ commercial ]
+tags : [ video, portfolio ]
+director: Iclaudius
+facility: Blu Post
+label : commercial
 image: ford-mustang.jpg
-video: https://drive.google.com/file/d/0B_NdsxRj1DjjWmJsMWVRcXR6WWc/preview
+style : 
+type : video
+link : http://player.vimeo.com/video/144146625
 ---

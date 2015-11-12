@@ -1,7 +1,13 @@
 ---
 layout: post
 title: Sponsor BeFresh - B Fresh Mascot
-tags : [ commercial ]
 image: sponser-befresh.jpg
-video: https://drive.google.com/file/d/0B_NdsxRj1DjjdDVkZXdNcGk4YWM/preview
+tags : [ video ]
+director: P’Thanachai
+production: Sunshine-ect.
+facility: Yggdrazil Group
+label : commercial
+style : 
+type : video
+link : http://player.vimeo.com/video/144203741
 ---

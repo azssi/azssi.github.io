@@ -1,8 +1,13 @@
 ---
 layout: post
 title: Arabus Ananda
-tags : [ commercial ]
+tags : [ home, video, portfolio ]
+director : P’Aood
+production : Number 7
+facility : Yggdrazil Group
+label : commercial
 image: arabus-ananda.jpg
-video: https://drive.google.com/file/d/0B_NdsxRj1Djjdk9mLUVyV2NlQlU/preview
-description: "no matter where the website is hosted."
+style : 
+type : video
+link : http://player.vimeo.com/video/144175878
 ---

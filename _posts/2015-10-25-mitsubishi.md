@@ -1,7 +1,14 @@
 ---
 layout: post
 title: Mitsubishi Attrage - Male
-tags : [ commercial ]
 image: mitsubishi.jpg
-video: https://drive.google.com/file/d/0B_NdsxRj1DjjcjJ0c1U5TkE1SW8/preview
+tags : [ video ]
+director: P’Anupap
+production: Mucky-Muck
+agency: Spicy H
+facility: Yggdrazil Group
+label : commercial
+style : 
+type : video
+link : http://player.vimeo.com/video/144124295
 ---

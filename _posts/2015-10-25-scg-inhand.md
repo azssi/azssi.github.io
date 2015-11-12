@@ -1,7 +1,14 @@
 ---
 layout: post
 title: SCG - In Hand
-tags : [ commercial ]
 image: scg-inhand.jpg
-video: https://drive.google.com/file/d/0B_NdsxRj1Djjb1YzVlBVeVBScEE/preview
+tags : [ video ]
+director: Joey
+production: Porjai Film
+agency: LOWE Thailand
+facility: Yggdrazil Group
+label : commercial
+style : 
+type : video
+link : http://player.vimeo.com/video/144146616
 ---

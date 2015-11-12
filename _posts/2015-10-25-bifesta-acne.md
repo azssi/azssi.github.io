@@ -1,7 +1,13 @@
 ---
 layout: post
 title: Bifesta - Acne
-tags : [ commercial ]
+tags : [video ]
+director: P’two
+production: The Shood
+facility: Yggdrazil Group
 image: bifesta-acne.jpg
-video: https://drive.google.com/file/d/0B_NdsxRj1DjjVTFScndiek1ZQkE/preview
+label : commercial
+style : 
+type : video
+link : http://player.vimeo.com/video/144175865
 ---

@@ -1,7 +1,14 @@
 ---
 layout: post
 title: Dutchmill - Premium Milk
-tags : [ commercial ]
+tags : [ video, portfolio ]
+director: P’chaw
+production: Promophobia
+agency: Ogilvy & Mather
+facility: Yggdrazil Group
+label : commercial
 image: dutchmill.jpg
-video: https://drive.google.com/file/d/0B_NdsxRj1DjjSmQ5M3pNVmJIOFk/preview
+style : 
+type : video
+link : http://player.vimeo.com/video/144175869
 ---

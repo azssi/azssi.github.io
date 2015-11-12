@@ -1,7 +1,13 @@
 ---
 layout: post
 title: Promise Personal Loan
-tags : [ commercial ]
 image: pp-loan.jpg
-video: https://drive.google.com/file/d/0B_NdsxRj1DjjcmdEc3lGMHVHUWc/preview
+tags : [ video ]
+production: Sunshine-etc.
+agency: Hakuhodo (Bangkok)
+facility: Yggdrazil Group
+label : commercial
+style : 
+type : video
+link : http://player.vimeo.com/video/144146617
 ---
