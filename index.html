@@ -1,17 +1,24 @@
 ---
 layout: default
+title : Grey Less Hues
 ---
 
 <!--Start Video Section-->
 {% for post in site.posts %}
         <div class="element  clearfix {% if post.style == 'horizontal' %} col2-3 half {% elsif post.style == 'vertical' %} col1-3 double {% else %} col1-3 {% endif %}	{% for tag in post.tags %} {{ tag }} {% endfor %} all {{post.label}} ">
-		 <div class="images"> <img src="/assets/img/{{post.image}}" alt="{{post.title}}" />
+		 <div class="images"> {% if post.type == 'video' %}<img src="/assets/img/{{post.image}}" alt="{{post.title}}" /> {% else %} <img src="{{post.image}}" alt="{{post.title}}" /> {% endif %}
             <section class="hidden-infos"> 
-			<a href="{{post.link}}" {% if post.type == 'video' %} class="video-popup" {% elsif post.type == 'poster' %} {% else %} data-title="{{post.title}}" data-fancybox-group="group1" class="popup" {% endif %} ></a>
-			
+			{% if post.type == 'video' %} 
+			<a href="{{post.link}}"  class="video-popup" ></a>
+			{% elsif post.type == 'poster' %} 
+			<a href="{{post.url}}" data-title="{{post.title}}" data-fancybox-group="group1"></a>
+			{% else %} 
+			<a href="{{post.image}}"  data-title="{{post.title}}" data-fancybox-group="group2" class="popup" ></a>
+			{% endif %}
               <div class="overlay"></div>
               <div class="icons {% if post.type == 'video' %} video {% elsif post.type == 'poster' %} more {% else %} zoom {% endif %}"></div>
             </section>
+					
             <div class="title">
               <div class="title-wrap">
                 <h3>{{post.title}}</h3>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+{% include head.html %}
+<body>
+<div id="wrap">
+  <!-- Preloader -->
+  <div id="preloader">
+    <div id="status">&nbsp;</div>
+  </div>
+  {% include header.html %}
+ 
+  <div id="content">
+    <div class="container">
+      <div id="container" class="clearfix">
+        <!--<div class="element  clearfix col1-1 half home">-->
+          
+		    <div class="element  clearfix col2-3 half home video portfolio all">
+          <div class="images"> 
+		  <img src="{{}}" alt="" />
+		  {% if post.image2 %}  <img src="{{post.image2}}" alt="{{post.title}}" /> {% else %} <img src="{{post.image}}" alt="{{post.title}}" /> {% endif %}
+            <section class="hidden-infos"> 
+			<!--<a href="images/pic01.jpg" data-title="Project Title Here" data-fancybox-group="group1" class="popup"></a>-->
+			<a href="http://player.vimeo.com/video/137512644" class="popup" title=""></a>
+              <div class="overlay"></div>
+              <div class="icons zoom"></div>
+            </section>
+            <div class="title">
+              <div class="title-wrap">
+                <h3>{{post.title}}</h3>
+              </div>
+            </div>
+            <div class="subtitle">
+              <div class="subtitle-wrap">
+                <p>{{post.label}}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+		  
+		  <!--<div class="flexslider">
+            <ul class="slides">
+              <li>
+                <div class="images">
+                  <div class="overlay2"></div>
+                  <img src="images/slide06.jpg" alt="" />
+                  <div class="caption">
+                    <div class="title">
+                      <div class="title-wrap">
+                        <h3>Clown in Town</h3>
+                      </div>
+                    </div>
+                    <div class="subtitle">
+                      <div class="subtitle-wrap">
+                        <p>webdesign.</p>
+                      </div>
+                    </div>
+                    <p>1 <span>of</span> 3</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="images">
+                  <div class="overlay2"></div>
+                  <img src="images/slide05.jpg" alt="" />
+                  <div class="caption">
+                    <div class="title">
+                      <div class="title-wrap">
+                        <h3>Musician</h3>
+                      </div>
+                    </div>
+                    <div class="subtitle">
+                      <div class="subtitle-wrap">
+                        <p>print.</p>
+                      </div>
+                    </div>
+                    <p>2 <span>of</span> 3</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="images">
+                  <div class="overlay2"></div>
+                  <img src="images/slide04.jpg" alt="" />
+                  <div class="caption">
+                    <div class="title">
+                      <div class="title-wrap">
+                        <h3>Circus Clown</h3>
+                      </div>
+                    </div>
+                    <div class="subtitle">
+                      <div class="subtitle-wrap">
+                        <p>illustration.</p>
+                      </div>
+                    </div>
+                    <p>3 <span>of</span> 3</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>-->
+        <div class="element clearfix col2-3 complete-border home auto">
+          <h2>{{post.title}}</h2>
+          <p>{{content}} </p>
+               </div>
+        <div class="element clearfix col1-3 border home">
+          <h2>Project Details</h2>
+          <ul class="unordered-list">
+            <li>Client: Microsoft</li>
+            <li>Date: November 2012</li>
+            <li>HTML5 / CSS3</li>
+            <li>Retina-Ready</li>
+          </ul>
+          <p class="small bottom"><a href="#">Visit live website.</a></p>
+        </div>
+      </div>
+      <!-- end container -->
+    </div>
+  </div>
+  <!-- end content -->
+</div>
+<!-- end wrap -->
+{% include footer.html %}
+</body>
+</html>

@@ -1,0 +1,36 @@
+---
+layout: work
+---	
+ <div class="element  clearfix col2-3 half home video portfolio all">
+          <div class="images"> 
+		   {% if page.image2 %}  <img src="{{page.image2}}" alt="{{page.title}}" /> {% else %} <img src="{{page.image}}" alt="{{page.title}}" /> {% endif %}
+          </div>
+        </div>
+		  
+		 
+        <div class="element clearfix col2-3 complete-border home auto min3">
+          <h2>{{page.title}}</h2>
+          <p>{{content}} </p>
+               </div>
+			   
+        <div class="element clearfix col1-3 border home">
+          <h2>Project Details</h2>
+		  <p>Visit IMDB for more details</p>
+          <ul class="unordered-list">
+            <li>Client: Microsoft</li>
+            
+            <li>Retina-Ready</li>
+          </ul>
+           {% if page.imdb %} <p class="text-center"><a target="_blank" href="{{page.imdb}}"><img src="http://icons.iconarchive.com/icons/uiconstock/socialmedia/96/IMDb-icon.png" /></a></p>{% endif %}
+        </div>
+		
+		 <div class="element clearfix col1-3 border home">
+          <h2>Share</h2>
+          <ul class="unordered-list">
+            <li>Client: Microsoft</li>
+            <li>Date: November 2012</li>
+            <li>HTML5 / CSS3</li>
+            <li>Retina-Ready</li>
+          </ul>
+          
+        </div>
