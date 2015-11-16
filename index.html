@@ -8,15 +8,29 @@ title : Grey Less Hues
         <div class="element  clearfix {% if post.style == 'horizontal' %} col2-3 half {% elsif post.style == 'vertical' %} col1-3 double {% else %} col1-3 {% endif %}	{% for tag in post.tags %} {{ tag }} {% endfor %} all {{post.label}} ">
 		 <div class="images"> {% if post.type == 'video' %}<img src="/assets/img/{{post.image}}" alt="{{post.title}}" /> {% else %} <img src="{{post.image}}" alt="{{post.title}}" /> {% endif %}
             <section class="hidden-infos"> 
-			{% if post.type == 'video' %} 
+			
+			<!--{% case post.type %}
+{% when post.type == 'video' %}
+<a href="{{post.link}}"  class="video-popup" ></a>
+{% when post.type == 'poster' %}
+<a href="{{post.url}}"></a>
+{% when post.type == 'poster-pop' %}
+<a href="{{post.image2}}" data-title="{{post.title}}" data-fancybox-group="group1"></a>
+{% else %}
+<a href="{{post.image}}"  data-title="{{post.title}}" data-fancybox-group="group2" class="popup" ></a>
+{% endcase %}-->
+
+{% if post.type == 'video' %} 
 			<a href="{{post.link}}"  class="video-popup" ></a>
 			{% elsif post.type == 'poster' %} 
-			<a href="{{post.url}}" data-title="{{post.title}}" data-fancybox-group="group1"></a>
+			<a href="{{post.url}}"></a>
+			{% elsif post.type == 'poster-pop' %} 
+			<a href="{{post.image2}}" data-title="{{post.title}}" data-fancybox-group="group1" class="popup"></a>
 			{% else %} 
 			<a href="{{post.image}}"  data-title="{{post.title}}" data-fancybox-group="group2" class="popup" ></a>
 			{% endif %}
               <div class="overlay"></div>
-              <div class="icons {% if post.type == 'video' %} video {% elsif post.type == 'poster' %} more {% else %} zoom {% endif %}"></div>
+              <div class="icons {% if post.type == 'video' %} video {% elsif post.type == 'poster' %} more {% elsif post.type == 'poster-pop' %} more {% else %} zoom {% endif %}"></div>
             </section>
 					
             <div class="title">

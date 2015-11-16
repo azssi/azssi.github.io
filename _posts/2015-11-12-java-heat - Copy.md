@@ -1,13 +1,10 @@
 ---
-layout: page
+layout: post
 title: Java Heat
-tags : [ poster ]
+tags : [ portfolio ]
 label : Featured Poster
 style : vertical
-type : poster
+type : poster-pop
 image : https://105173f9322b39887ae9a565e771fd59fa79afb4.googledrive.com/host/0B_NdsxRj1DjjcEx0UHA4OF9DNzA/fp3/javaheat.jpg
 image2 : https://105173f9322b39887ae9a565e771fd59fa79afb4.googledrive.com/host/0B_NdsxRj1DjjcEx0UHA4OF9DNzA/fp2/javaheat.jpg
-imdb : http://www.imdb.com/title/tt2083231/?ref_=fn_al_tt_1
 ---
-
-A Muslim detective teams with an American posing as a graduate student to find the man behind a series of deadly terrorist bombings in Indonesia.
